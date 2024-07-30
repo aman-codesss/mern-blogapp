@@ -1,0 +1,13 @@
+
+.loginBtn{
+    margin-top: 16px;
+
+    width: 100%;
+    background: #292929;
+    color: white;
+    font-size: 16px;
+    border:none;
+    border-radius:6px;
+    cursor: pointer;
+    
+}

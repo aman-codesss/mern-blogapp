@@ -1,0 +1,15 @@
+.imageContainer{
+   width: 20%;
+   height: 300px;
+   /* border: 1px solid black; */
+}
+.imageContainer img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.author{
+    color: rgb(212, 0, 255);
+    width: 20px;
+}

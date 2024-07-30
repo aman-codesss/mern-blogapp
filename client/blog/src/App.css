@@ -1,0 +1,198 @@
+*{
+  box-sizing: border-box;
+}
+main{
+  position: relative;
+  padding-top: 20px;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto 200px auto;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  /* margin-bottom: 100px; */
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(92, 91, 91, 0.226);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.logo{
+  font-weight: 700;
+}
+header nav{
+  display: flex;
+  gap: 15px;
+}
+.post p{
+  color: #3f3f3f;
+}
+.post{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: .3fr 1.7fr;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.post .image-container{
+  display: flex;
+  height: 225px; 
+  width: 225px;
+  border-radius: 10%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+/* .post .img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+} */
+.texts .info{
+display: flex;
+gap: 20px;
+font-size: 16px;
+color: rgb(88, 88, 88);
+}
+.login{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right, #ff0000, #c401ff);
+  border-image-slice: 1;
+  width: 50%;
+  margin: 100px auto 0 auto;
+  padding: 50px 0 ;
+  background: #eeeeee;
+ }
+ input{
+  margin-top: 10px;
+  padding: 2px 4px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-size: 18px;
+  
+}
+.btn{
+  margin-top: 8px;;
+  width: 100%;
+  font: inherit;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+input:focus{
+  outline: none;
+  border-color: #cc00ff;
+
+}
+.main-body{
+  margin-top: 100px;
+}
+.single-post-time{
+  color: rgb(71, 71, 71);
+  font:bold;
+  font-size: 1em;
+}
+.authorContainer{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.author{
+  font-weight: 400;
+}
+.single-blog-page p{
+  margin-top: 24px;
+  display: block;
+  background-color: rgb(224, 224, 224);
+  padding:4px 10px;
+  border-radius: 20px;
+}
+.allPosts{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left{
+  width: 70%;
+  /* border: 1px solid black; */
+}
+.right{
+  padding: 16px 24px;
+  width: 40%;
+  height: 60vh;
+  /* border: 1px solid black; */
+  background-image: linear-gradient(to right,#ffae78,#fdff7f);
+  border-radius: 10px;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 400;
+  display: flex;
+  box-shadow: 3px 3px 20px rgb(95, 95, 95,.3);
+  
+}
+
+.right .text, span{
+  background: transparent;
+}
+.best{
+  font-weight: bold;
+}
+.edit-btn{
+  background: transparent;
+  color: white;
+  }
+  .edit-container {
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 8px 0 ;
+  background: rgb(0, 0, 0);
+  width: 20%;
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: white;
+
+}
+.edit-container:hover{
+  background: #272727;
+}
+.edit-container svg{
+  height: 20px;
+  background: transparent;
+}
+.delete-btn{
+  background: #ff3030;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+.welcome{
+  background: linear-gradient(to right, #2daafd, #8402a5);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* yo chai frontend portion matra  */
